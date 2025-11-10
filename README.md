@@ -23,11 +23,11 @@ A practical cybersecurity project that parses Windows Sysmon logs, builds behavi
 
 ## Expected Results
 After execution, you should see results similar to these:
-- Command Line Length Distribution
+Command Line Length Distribution
 <img width="982" height="416" alt="length-distribution " src="https://github.com/user-attachments/assets/3aabc6dc-a7cf-4c1a-85be-4457ab808b27" />
-- Anomalies Over Time
+Anomalies Over Time
 <img width="1023" height="385" alt="anomalies-over-time" src="https://github.com/user-attachments/assets/7951fe78-a3e0-42ec-a3ec-4e1ed57565c4" />
-- Suspicious Commands
+Suspicious Commands
 <img width="976" height="185" alt="suspicious-command" src="https://github.com/user-attachments/assets/377eb750-4870-4f78-8be0-1f2b10744cb7" />
 
 ## Disclaimer
