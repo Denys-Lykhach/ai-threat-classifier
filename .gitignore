@@ -7,7 +7,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data and outputs (do NOT commit logs or processed results)
-data/
+data/*
+!data/README.md
 processed/
 *.log
 *.csv
@@ -21,3 +22,5 @@ decoded_payload.txt
 # Virtual envs / secrets
 venv/
 .env
+!requirements.txt
+!data/README.md
