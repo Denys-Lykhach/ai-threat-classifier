@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and outputs (do NOT commit logs or processed results)
+data/
+processed/
+*.log
+*.csv
+*.txt
+payload.bin
+decoded_payload.txt
+
+# OS junk
+.DS_Store
+
+# Virtual envs / secrets
+venv/
+.env
