@@ -14,10 +14,22 @@ A practical cybersecurity project that parses Windows Sysmon logs, builds behavi
   - Anomalies over time
 
 ## How to run (locally)
-```bash
-pip install -r requirements.txt
-jupyter lab  # or jupyter notebook
+- Open the notebook file   -  `notebook/ThreatClassifier.ipynb`
+- Update the input path to your Sysmon log file:
+  -  `SYSLOG = "/path/to/your/sysmon.log" `
+- Update the output path for saving processed results:
+  -  `OUT_DIR = Path("/path/to/save/results") `
+- Run all cells in the notebook. 
+
+## Expected Results
+After execution, you should see results similar to these:
+- Command Line Length Distribution
+<img width="982" height="416" alt="length-distribution " src="https://github.com/user-attachments/assets/3aabc6dc-a7cf-4c1a-85be-4457ab808b27" />
+- Anomalies Over Time
+<img width="1023" height="385" alt="anomalies-over-time" src="https://github.com/user-attachments/assets/7951fe78-a3e0-42ec-a3ec-4e1ed57565c4" />
+- Suspicious Commands
+<img width="976" height="185" alt="suspicious-command" src="https://github.com/user-attachments/assets/377eb750-4870-4f78-8be0-1f2b10744cb7" />
 
 ## Disclaimer
-This project was developed with the assistance of AI tools.  
+This project was developed with the assistance of AI tools.
 While the code and documentation were carefully reviewed, some errors or inconsistencies may still exist.
